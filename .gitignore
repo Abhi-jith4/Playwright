@@ -1,3 +1,15 @@
+# Virtual environment
 venv/
+
+# Python cache
 __pycache__/
 *.pyc
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# Pytest HTML reports
+report.html
+reports/
+assets/
