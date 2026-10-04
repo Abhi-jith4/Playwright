@@ -7,4 +7,6 @@ def test_api_get(playwright):
 
     assert json_data["id"] == 1
     request.dispose()
+    print("Status code:", response.status)
+    
     print("API GET request test completed successfully.")
